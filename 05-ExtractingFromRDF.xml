@@ -15,8 +15,8 @@
         <xpath>/rdf:RDF/rdf:Description/ebucore:hasMimeType/text()</xpath>
       </setProperty>
       <filter>
-        <simple>${property.mimetype} == 'image/tiff'</simple>
-        <log message="TIFF"/>
+        <simple>${property.mimetype} == 'image/jpeg'</simple>
+        <log message="JPEG!"/>
       </filter>
     </route>
 

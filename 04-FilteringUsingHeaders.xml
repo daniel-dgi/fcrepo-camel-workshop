@@ -11,7 +11,6 @@
 
     <route id="thumbnailRouter">
       <from uri="activemq:topic:fedora"/>
-      <log message="GOT A MESSAGE: ${headers}"/>
       <filter>
         <simple>
           ${header[org.fcrepo.jms.eventType]} != 'http://fedora.info/definitions/v4/repository#NODE_REMOVED' &amp;&amp;
